@@ -99,7 +99,7 @@ const INFO = {
       description: "My Portfolio build using Next.js",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
       linkText: "View Project",
-      link: "https://www.dari.ae/",
+      link: "https://yousefalhindawi-portfolio.vercel.app/",
     },
   ],
 };
