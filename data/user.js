@@ -3,7 +3,7 @@ const INFO = {
     title: "Yousef ALHindawi",
     name: "Yousef ALHindawi",
     email: "eng.yousefalhindawi@gmail.com",
-    logo: "../yousef_alhindawi_pic.jpg",
+    logo: "/yousef_alhindawi_pic.jpg",
   },
 
   socials: {

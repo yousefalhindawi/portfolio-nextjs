@@ -24,15 +24,6 @@ const Contact = ({ INFO, SEO }) => {
         <meta name="keywords" content={currentSEO.keywords.join(", ")} />
       </Head>
 
-      {/* <div className="page-content">
-				<NavBar active="contact" />
-				<div className="content-wrapper">
-					<div className="contact-logo-container">
-						<div className="contact-logo">
-							<Logo width={46} />
-						</div>
-					</div> */}
-
       <div className="contact-container">
         <div className="title contact-title">
           Let's Get in Touch: Ways to Connect with Me
@@ -60,12 +51,6 @@ const Contact = ({ INFO, SEO }) => {
           <Socials />
         </div>
       </div>
-
-      {/* <div className="page-footer">
-						<Footer />
-					</div>
-				</div>
-			</div> */}
     </>
   );
 };

@@ -19,14 +19,6 @@ const Projects = ({ INFO, SEO }) => {
         <meta name="keywords" content={currentSEO.keywords.join(", ")} />
       </Head>
 
-      {/* <div className="page-content"> */}
-      {/* <NavBar active="projects" /> */}
-      {/* <div className="content-wrapper"> */}
-      {/* <div className="projects-logo-container">
-						<div className="projects-logo">
-							<Logo width={46} />
-						</div>
-					</div> */}
       <div className="projects-container">
         <div className="title projects-title">
           Things I’ve made trying to put my dent in the universe.
@@ -46,11 +38,6 @@ const Projects = ({ INFO, SEO }) => {
           <AllProjects />
         </div>
       </div>
-      {/* <div className="page-footer">
-						<Footer />
-					</div> */}
-      {/* </div> */}
-      {/* </div> */}
     </>
   );
 };

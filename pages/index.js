@@ -19,6 +19,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
 import Head from "next/head";
+import Image from "next/image";
 
 const Homepage = ({ INFO, SEO }) => {
   const [stayLogo, setStayLogo] = useState(false);
@@ -87,11 +88,27 @@ const Homepage = ({ INFO, SEO }) => {
           <div className="homepage-first-area-right-side">
             <div className="homepage-image-container">
               <div className="homepage-image-wrapper">
-                <img
+                <div
+                  style={{
+                    width: "370px",
+                    height: "370px",
+                    position: "relative",
+                  }}
+                >
+                  <Image
+                    fill
+                    // height= {30}
+                    // width= {30}
+                    src={"/yousef_alhindawi_pic.jpg"}
+                    alt="about"
+                    className="homepage-image"
+                  />
+                </div>
+                {/* <img
                   src="yousef_alhindawi_pic.jpg"
                   alt="about"
                   className="homepage-image"
-                />
+                /> */}
               </div>
             </div>
           </div>

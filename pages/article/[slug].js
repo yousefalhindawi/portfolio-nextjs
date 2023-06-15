@@ -4,6 +4,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import myArticles from "@/data/articles";
 import INFO from "@/data/user";
+import Image from "next/image";
 
 let ArticleStyle = styled.div``;
 
@@ -40,12 +41,21 @@ const ReadArticle = ({ INFO, myArticles }) => {
 
       <div className="read-article-container">
         <div className="read-article-back">
-          <img
-            src="../back-button.png"
+          <Image
+            // fill
+            height= {50}
+            width= {50}
+            src={"/back-button.png"}
             alt="back"
             className="read-article-back-button"
             onClick={handleGoBack}
           />
+          {/* <img
+            src="../back-button.png"
+            alt="back"
+            className="read-article-back-button"
+            onClick={handleGoBack}
+          /> */}
         </div>
 
         <div className="read-article-wrapper">

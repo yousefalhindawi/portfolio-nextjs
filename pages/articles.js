@@ -25,15 +25,6 @@ const Articles = ({ INFO, SEO }) => {
         <meta name="keywords" content={currentSEO.keywords.join(", ")} />
       </Head>
 
-      {/* <div className="page-content">
-				<NavBar active="articles" />
-				<div className="content-wrapper">
-					<div className="articles-logo-container">
-						<div className="articles-logo">
-							<Logo width={46} />
-						</div>
-					</div> */}
-
       <div className="articles-main-container">
         <div className="title articles-title">{INFO.articles.title}</div>
 
@@ -57,11 +48,6 @@ const Articles = ({ INFO, SEO }) => {
           </div>
         </div>
       </div>
-      {/* <div className="page-footer">
-						<Footer />
-					</div>
-				</div>
-			</div> */}
     </>
   );
 };
