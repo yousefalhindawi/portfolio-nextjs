@@ -2,6 +2,16 @@
   "name": "portfolio-nextjs",
   "version": "0.1.0",
   "private": true,
+  "description": "Personal portfolio built using Next.js",
+  "author": {
+    "name": "Yousef ALHindawi",
+    "email": "eng.yousefalhindawi@gmail.com",
+    "url": "https://yousefalhindawi.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YousefALH/portfolio-nextjs"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +19,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.42.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "eslint-config-next": "13.4.5",
     "next": "13.4.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.10"
   }
 }
