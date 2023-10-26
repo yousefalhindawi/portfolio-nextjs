@@ -27,6 +27,13 @@ const INFO = {
     title: "I’m Yousef ALHindawi I live in Jordan, where I build the web.",
     description:
       "Software Engineer focusing on the front-end development using cutting-edge technologies like React.js, Next.js, and Node.js.I worked on full-stack projects using React.js and Node.js, as well as maintaining and modifying existing projects.My experience includes working in a multicultural environment and delivering high-quality software in an agile environment.In addition to my technical skills, I hold a degree in Electrical Engineering and am a certified Occupational Safety and Health Specialist. This diverse background allows me to approach problems with a unique perspective and find creative solutions that others may overlook. I am always eager to take on new challenges and constantly seek ways to expand my skill set and contribute to my team's success.I am passionate about technology, and I enjoy building stuff, as well as self-learning and problem-solving.",
+    footballDesc:
+      "I'm also a Former professional footballer. I'm proud to say I played for alhussain-Irbid club, and I had many Trophies with the club:",
+    footballTrophy: [
+      "The Champion of Jordanian U18 Championship for men.",
+      "The Champion of Jordanian U20 Championship for men.",
+      "The Champion of Jordanian 1st League Championship for men.",
+    ],
   },
 
   articles: {
@@ -99,7 +106,7 @@ const INFO = {
       description: "My Portfolio build using Next.js",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
       linkText: "View Project",
-      link: "https://yousefalhindawi-portfolio.vercel.app/",
+      link: "https://yousefalhindawi.vercel.app/",
     },
   ],
 };

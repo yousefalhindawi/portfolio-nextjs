@@ -33,6 +33,49 @@ const About = ({ INFO, SEO }) => {
             <div className="subtitle about-subtitle">
               {INFO.about.description}
             </div>
+
+            <div className="subtitle about-subtitle">
+              {INFO.about.footballDesc}
+              <ul>
+                {INFO.about.footballTrophy.map((Trophy) => (
+                  <li>{Trophy}</li>
+                ))}
+              </ul>
+              <div className="image-football-container">
+                <div className="about-image-football">
+                  <div
+                    style={{
+                      // width: "370px",
+                      height: "370px",
+                      position: "relative",
+                    }}
+                  >
+                    <Image
+                      fill
+                      src={"/my-success-in-football.png"}
+                      alt="about"
+                      className="about-image"
+                    />
+                  </div>
+                </div>
+                <div className="about-image-football">
+                  <div
+                    style={{
+                      // width: "370px",
+                      height: "370px",
+                      position: "relative",
+                    }}
+                  >
+                    <Image
+                      fill
+                      src={"/mesport.jpg"}
+                      alt="about"
+                      className="about-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="about-left-side">
