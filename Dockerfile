@@ -15,18 +15,20 @@ COPY . .
 # Build the Next.js application
 RUN npm run build
 
-# Stage 2: Serve the app with Nginx
-FROM nginx:alpine
+# Stage 2: Serve the app with Node.js
+FROM node:16-alpine as production
 
-# Copy the built app from the builder stage
-COPY --from=builder /app/.next /usr/share/nginx/html
+WORKDIR /app
 
-# Copy the Nginx configuration file
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy the built app and necessary files from the builder stage
+COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
 
-# Expose port 80 to the Docker host, so we can access it 
-# from the outside.
-EXPOSE 80
+# Expose the port Next.js runs on
+EXPOSE 3000
 
-# Start Nginx when the container has provisioned.
-CMD ["nginx", "-g", "daemon off;"]
+# Start the Next.js app
+CMD ["npm", "start"]
