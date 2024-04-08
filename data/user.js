@@ -60,7 +60,13 @@ const INFO = {
       linkText: "View Project",
       link: "https://www.dari.ae/",
     },
-
+    {
+      title: "Recipes",
+      description: "Search for delicious recipes build using React.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      linkText: "View Project",
+      link: "https://recipes-g0lv.onrender.com/",
+    },
     {
       title: "Weather-Journal App",
       description:
@@ -78,6 +84,14 @@ const INFO = {
       link: "https://travel-application-project.onrender.com/",
     },
     {
+      title: "Landing Page",
+      description:
+        "An overview of the JavaScript Techniques used in this project: Build the navigation menu dynamically. Add the 'active' class to a section when it is near the top of the viewport. Scroll to the corresponding section when a navigation link is clicked. Add a scroll to the top button on the page that’s only visible when the user scrolls below the fold of the page. Debounce. Throttle.",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+      linkText: "View Project",
+      link: "https://yousefalhindawi.github.io/udacity-frontend-nanodegrees-landing-page/",
+    },
+    {
       title: "Natural Language Processing (NLP) App",
       description:
         "Evaluate a News Article with Natural Language Processing (NLP)",
@@ -86,14 +100,6 @@ const INFO = {
       link: "https://natural-language-processing-nlp.onrender.com/",
     },
 
-    {
-      title: "Landing Page",
-      description:
-        "An overview of the JavaScript Techniques used in this project: Build the navigation menu dynamically. Add the 'active' class to a section when it is near the top of the viewport. Scroll to the corresponding section when a navigation link is clicked. Add a scroll to the top button on the page that’s only visible when the user scrolls below the fold of the page. Debounce. Throttle.",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-      linkText: "View Project",
-      link: "https://yousefalhindawi.github.io/udacity-frontend-nanodegrees-landing-page/",
-    },
     {
       title: "Personal blog website",
       description: "personal blog website.",
@@ -107,13 +113,6 @@ const INFO = {
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
       linkText: "View Project",
       link: "https://yousefalhindawi.vercel.app/",
-    },
-    {
-      title: "Recipes",
-      description: "Search for delicious recipes build using React.js",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      linkText: "View Project",
-      link: "https://recipes-g0lv.onrender.com/",
     },
   ],
 };
