@@ -8,7 +8,7 @@ on:
       [ main ]
     paths:
     - '**'
-    - '.github/workflows/portfolionextjs-AutoDeployTrigger-f34ac056-3b70-4904-9df1-323aa1ccc88d.yml'
+    - '.github/workflows/portfolionextjs-AutoDeployTrigger-f0429bd1-3742-49f1-b1a3-93d5d5ba861e.yml'
 
   # Allow manual trigger 
   workflow_dispatch:
