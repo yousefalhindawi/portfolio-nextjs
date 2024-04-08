@@ -108,6 +108,13 @@ const INFO = {
       linkText: "View Project",
       link: "https://yousefalhindawi.vercel.app/",
     },
+    {
+      title: "Recipes",
+      description: "Search for delicious recipes build using React.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      linkText: "View Project",
+      link: "https://recipes-g0lv.onrender.com/",
+    },
   ],
 };
 
