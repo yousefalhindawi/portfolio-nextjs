@@ -80,7 +80,7 @@ const INFO = {
         "This project create an asynchronous web app that uses Web API(https://openweathermap.org/api) and user data to dynamically update the UI.",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
       linkText: "View Project",
-      link: "https://weather-journal-app-xpq7.onrender.com/",
+      link: "https://weatherjournalapp-zr232ryz.b4a.run/",
     },
     {
       title: "Travel App",
@@ -88,7 +88,7 @@ const INFO = {
         "This project create an asynchronous web app that will retrieve the user input where the location he is traveling to and the date he is leaving. If the trip is within a week, you will get the current weather forecast. If the trip is in the future, you will get a predicted forecast. We are going to use the Weatherbit API(https://www.weatherbit.io/api). Weatherbit API has one problem, it only takes in coordinates for weather data—it’s that specific. So, we’ll need to get those coordinates from the Geonames API(https://www.geonames.org/export/web-services.html). Once we have all of this data, we’ll want to display an image of the location entered; for this, we will be using the Pixabay API(https://pixabay.com/api/docs).",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
       linkText: "View Project",
-      link: "https://travel-application-project.onrender.com/",
+      link: "https://travelapplicationproject-pay53op5.b4a.run/",
     },
     {
       title: "Landing Page",
@@ -96,7 +96,7 @@ const INFO = {
         "An overview of the JavaScript Techniques used in this project: Build the navigation menu dynamically. Add the 'active' class to a section when it is near the top of the viewport. Scroll to the corresponding section when a navigation link is clicked. Add a scroll to the top button on the page that’s only visible when the user scrolls below the fold of the page. Debounce. Throttle.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
       linkText: "View Project",
-      link: "https://yousefalhindawi.github.io/udacity-frontend-nanodegrees-landing-page/",
+      link: "https://yousefalhindawi.github.io/landing-page/",
     },
     {
       title: "Natural Language Processing (NLP) App",
@@ -104,7 +104,7 @@ const INFO = {
         "Evaluate a News Article with Natural Language Processing (NLP)",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
       linkText: "View Project",
-      link: "https://natural-language-processing-nlp.onrender.com/",
+      link: "https://nlpapp-k9qo4trr.b4a.run/",
     },
 
     {
@@ -112,7 +112,7 @@ const INFO = {
       description: "personal blog website.",
       logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       linkText: "View Project",
-      link: "https://yousefalhindawi.github.io/udacity-frontend-nanodegrees-personal-blog-website/",
+      link: "https://yousefalhindawi.github.io/personal-blog-website/",
     },
     {
       title: "My Portfolio",
