@@ -61,6 +61,13 @@ const INFO = {
       link: "https://www.dari.ae/",
     },
     {
+      title: "GrabOne-frontend",
+      description: "GrabOne offers experiences, services, products and travel deals",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      linkText: "View Project",
+      link: "https://grabone-frontend.netlify.app/",
+    },
+    {
       title: "Recipes",
       description: "Search for delicious recipes build using React.js",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
